@@ -26,7 +26,8 @@ export default class TabList extends Component {
     return (
         <div>
             <nav>
-            <div className="nav nav-pills">
+            <div className="nav nav-tabs">
+            {/* <div className="nav nav-pills"> */}
                 {children.map((child) => {
                 const { label } = child.props;
     
